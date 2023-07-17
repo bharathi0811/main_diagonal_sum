@@ -10,7 +10,5 @@ def matrix(lst, r):
 matrix_=matrix(lst,r)
 sum_=0
 for i in range(r):
-    for j in range(c):
-        if i ==j:
-            sum_+= matrix_[i][j]
+    sum_+= matrix_[i][i]
 print(sum_)
